@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@800&display=swap" rel="stylesheet">
+
+    <title>Lydia's Restaurant App</title>
+</head>
+
+
+
+
+<body>
+    
+    <!-- <h3>Type any desired cuisines or foods</h3>
+    <div class="container">
+      <form id="form">
+        <h1>Random Restaurant Generator</h1>
+
+        <div class="field">
+          <label for="cuisine">Type any desired cuisines or foods</label>
+          <input type="text" id ="cuisine" name="cuisine" placeholder="Cuisine"/>
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="location">Type any city, zip code, or neighborhood</label>
+          <input type="text" id ="location" name="location" placeholder="Location"/>
+          <small></small>
+        </div>
+        <button onClick="resultsVisibility()"type="submit" id="submit">Generate Random Result!</button>
+      </form>
+    </div> -->
+
+
+      <!-- <h2>For when you can't decide where to eat!</h2> -->
+        
+
+      <!-- copy html form here -->
+
+      
+        
+      
+  <div class="header-section wf-section">
+    <div class="container w-container">
+      <h1 class="heading">Restaurant Randomizer</h1>
+      <p class="subtitle">For when you need help choosing what to eat for dinner!</p>
+    </div>
+
+
+
+
+    <div class="yelp-form-container">
+      <div class="yelp-form-block w-form">
+        <form id="form" name="form" data-name="Form" class="form-yelp">
+          <label for="cuisine" class="field-cuisine-type">Enter Desired Cuisine Type, or Food Keywords</label>
+          <input type="text" id="cuisine" class="text-field-yelp w-input" 
+            maxlength="256" 
+            name="cuisine" 
+            data-name="cuisine" 
+            placeholder="Cuisine" 
+            required="">
+
+          <label for="location" 
+            class="field-cuisine-type">Enter City, Zip Code, Or Neighborhood
+          </label>
+
+          <input type="text" id="location" class="text-field-yelp w-input" 
+            maxlength="256" 
+            name="location" 
+            data-name="Location" 
+            placeholder="City or Zip Code" 
+            required="">
+          <button onClick="resultsVisibility()" type="submit" id="submit" data-wait="Please wait..." class="submit-button w-button">Generate Recommendation</button>
+      
+
+
+
+
+
+
+
+
+
+
+        <!-- <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class
+          
+    
+        </form> -->
+        
+        <!-- <div class="w-form-done">
+        <div>Thank you! Your submission has been received!</div>
+        </div> -->
+        <!-- <div class="w-form-fail">
+        <div>Oops! Something went wrong while submitting the form.</div>
+      </div> -->
+    </div>
+    </div>
+    </div>
+    
+      
+
+
+
+
+<main id="results">
+  <div id="results-container"><!--div that we want to hide-->
+    <h1 id="name" class="restaurant">Restaurant Info</h1>
+  
+    
+    <div id="food-images">
+      <img class="food-images" id="image-one" src="" alt=""  /> 
+      <img class="food-images" id="image-two" src="" alt=""  />
+      <img class="food-images" id="image-three" src="" alt="" />
+    </div>
+    <!-- <p id="name"></p> -->
+    <h3 id="pricing"></h3>
+    <h3 id="rating"></h3>
+
+    <!-- <p>Address</p> -->
+    <h3 id="address"></h3>
+
+    <!-- <p>Categories</p> -->
+    <h3 id="categories"></h3>
+
+
+
+    <div class=flex-button>
+      <a id="yelp_button" class="button" href="" target="_blank">View Yelp Profile</a>
+    </div>
+    <!-- <p>ID</p>
+    <p id="id"></p> -->
+
+    
+    <img id="image" class="image" src=""></img>
+  </div>
+</main>
+
+<!-- footer section -->
+  <div class="footer-section wf-section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6 w-col-small-6">
+          <div class="copyright">© 2021 Lydia Anzures. All right reserved. 
+          </div>
+        </div>
+        <div class="align-right w-col w-col-6 w-col-small-6">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

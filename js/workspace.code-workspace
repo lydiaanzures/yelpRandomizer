@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../mydevfolder"
+		},
+		{
+			"path": "../../../git-github-and-terminal"
+		},
+		{
+			"path": "../../../ringo-enterprise"
+		},
+		{
+			"path": "../../../Intro to JS"
+		},
+		{
+			"path": "../../../chameleon/CodeWars"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ringo21"
+	}
+}
