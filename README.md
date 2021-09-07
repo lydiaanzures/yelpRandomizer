@@ -26,7 +26,8 @@
 <p>Two API requests to two different endpoints using Yelp Fusion API</p>
 
 <h2>Stretch goals</h2>
-<p></p>
+<p>Add a favorites list to save interesting results</p>
+<p>Link to Google Maps or embed maps functionality to see where restaurant is exactly</p>
 
 
   
