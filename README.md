@@ -12,7 +12,7 @@
 <ul><a href="https://www.yelp.com/developers/documentation/v3/business">Yelp Fusion API</a></ul>
 
 <h2>Getting Started</h2>
-<p><a href="https://yelp-restaurant-recommender.herokuapp.com/">Click here to see the deployed app!</a></p>
+<p><a href="http://yelp-restaurant-recommender.herokuapp.com/">Click here to see the deployed app!</a></p>
 
 
 <h2>More information/Approach</h2>
