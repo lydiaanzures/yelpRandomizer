@@ -29,12 +29,6 @@ const $imageThree = $('#image-three')
 //when submitting form, call function to get data
 $('form').on('submit', getCurrentData);
 
-
-
-
-
- 
-
 //let's write a function that can get a random number from 1-20, 
 //we'll use this to target a random result from our search results object!
 function randomNumber(){
@@ -42,13 +36,10 @@ function randomNumber(){
     return randNum
 }
 
-
-
 function getCurrentData(event) {
     //prevent page refresh
     event.preventDefault();
     
-
     //GET request to YELP FUSION API, with input from form
     $.ajax({
         url: `${myurl}${$inputCuisine.val()}&location=${$inputLocation.val()}`,
@@ -95,8 +86,7 @@ function getCurrentData(event) {
 
                         //access image_url
                         const image = dataId.image_url
-                        // console.log(image)
-
+                        console.log(image)
 
                         //setting src attribute in image to the API image response
                         $image.attr("src", image)
@@ -111,15 +101,11 @@ function getCurrentData(event) {
 
                         //pricing of restaurant
                         const pricing = $pricing.text(dataId.price)
-                       
-
-                        
+                    
                         //rating of restaurant
                         //review count #
                         const rating = $rating.text(`${dataId.rating}/5 stars out of ${dataId.review_count} reviews`) 
 
-
-                        
                         //yelp url
                         const yelpRestaurantUrl = dataId.url
                         $yelp_button.attr("href", yelpRestaurantUrl)
@@ -138,9 +124,7 @@ function getCurrentData(event) {
 
                             } else if (i==2){
                                 imageThree += dataId.photos[2]
-
                             }
-
                         }
                         // imageOne = dataId.photos[0]
                         // imageTwo = dataId.photos[1]
@@ -149,17 +133,6 @@ function getCurrentData(event) {
                         $imageTwo.attr("src", imageTwo)
                         $imageThree.attr("src", imageThree)
 
-                        
-
-
-                    
-
-
-
-
-                        
-            
-            
                 restaurantCategories.push(" " + data.businesses[randomIndex].categories[i].title)
 
                         
@@ -173,23 +146,13 @@ function getCurrentData(event) {
                     console.log('bad request', error);
                     }
                 );
-                        
-            
-                        
-            
-                        
-
-
+               
 
             //set variables for each piece of data
             const name = $name.text(restaurantName)
             const categories = $categories.text(restaurantCategories)
             // const restoId = $id.text(restaurantId)
             
-            
-            // $temp.text(data.main.temp)
-            // $feels.text(data.main.feels_like);
-            // $description.text(data.weather[0].main)
 
             //let's console log our array
             console.log("data" + data);
@@ -210,7 +173,6 @@ function getCurrentData(event) {
 
 function resultsVisibility() {
     $('#results-container').css("display","block")
-    // $("#results-container").scrollTop = 0
 }
 
 $("#submit").click(function() {
@@ -223,8 +185,5 @@ $("#submit").click(function() {
 //render function
 function render(){
     console.log(yelpData)
-    // $categories.text(yelpData.name);
-    // $feels.text(weatherData.feels_like);
-    // $description.text(weatherData.weather[0].main);
 }
 
