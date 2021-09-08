@@ -20,7 +20,7 @@
 
 <p><a href="https://docs.google.com/document/d/1p0x2yfeZBttsOtTqJXI26hl-vKYoVHQzhNPEcI2pv_k/edit">Click here to see the Product Spec Sheet, as well as Wireframing mock-up</a></p>
 
-<p><a href="https://drive.google.com/file/d/1zyGO34Fips3mO5xNCwVAiS1mCigYa_R1/preview"</a></p>
+<p><a href="https://drive.google.com/file/d/1zyGO34Fips3mO5xNCwVAiS1mCigYa_R1/preview">Mockup</a></p>
 
 <p><a href="https://trello.com/b/yfcTpTHk/project-unit-1">Click here to see the Task Trello Board used</a></p>
   
