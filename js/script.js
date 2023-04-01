@@ -1,6 +1,6 @@
 //Heroku used to access YELP API and work within Chrome Console
-const myurl = "https://lydiaanzures.github.io/yelpRandomizer/https://api.yelp.com/v3/businesses/search?term="
-
+const myurl = "https://hidden-island-82976.herokuapp.com/https://api.yelp.com/v3/businesses/search?term="
+// https://lydiaanzures.github.io/yelpRandomizer/
 //ideally wouldn't be uploaed to github but ok for scope of this project!
 const fusionKey = 'cK767jKmXc6Sw1GY8kafbVleLXYPLdMPuq1uU92GqnU4VlQjPv8NfrDeLXhxcWBun2n6UPw9tzg9uY5QC4R_ae-yfGz8-Wo_r0wJBelsKDObQco-fUloMgS5wTQvZHYx'
 
