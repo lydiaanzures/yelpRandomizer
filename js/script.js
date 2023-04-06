@@ -74,7 +74,7 @@ function getCurrentData(event) {
 
             //make another GET request, this time to another endpoint
             $.ajax({
-                url: `https://afternoon-retreat-09280.herokuapp.com/https://api.yelp.com/v3/businesses/${restaurantId}`,
+                url: `https://lydiaanzures.github.io/yelpRandomizer/https://api.yelp.com/v3/businesses/${restaurantId}`,
                 headers: {'Authorization':'Bearer ' + fusionKey,
                     },
                     method: 'GET',
