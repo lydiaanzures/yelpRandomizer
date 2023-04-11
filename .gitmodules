@@ -1,0 +1,3 @@
+[submodule "yelpRandomizer"]
+	path = yelpRandomizer
+	url = https://github.com/Rob--W/cors-anywhere.git
